@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+  }
+  
+  #main {
+    box-sizing: content-box;
+    height: 100vh;
+    padding: 5px;
+    #main-settings {
+        width: 30vw;
+        height: 30vh;
+        background-color: white;
+
+        #settings-open-close {
+            display: flex;
+            justify-content: end; 
+        }
+        #amount-settings {
+            display: flex;
+        }
+
+        #make-gradient {
+            height: 40px;
+            width: 100px;
+          }
+    }
+  }
+  
+  

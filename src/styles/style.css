@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+#main {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 100vh;
+  padding: 5px;
+}
+
+#main #main-settings {
+  width: 30vw;
+  height: 30vh;
+  background-color: white;
+}
+
+#main #main-settings #settings-open-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#main #main-settings #amount-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main #main-settings #make-gradient {
+  height: 40px;
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
