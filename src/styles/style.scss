@@ -1,27 +1,41 @@
 * {
     margin: 0;
+    padding: 0;
   }
   
   #main {
     box-sizing: content-box;
     height: 100vh;
-    padding: 5px;
+
     #main-settings {
-        width: 30vw;
-        height: 30vh;
+        width: 25vw;
+        height: 14vh;
         background-color: white;
 
         #settings-open-close {
             display: flex;
             justify-content: end; 
         }
+        
+        #number {
+          text-align: center;
+        }
+
         #amount-settings {
+            margin: 10px;
             display: flex;
+            justify-content: center;
+
+            .incr-decr {
+              margin-left: 20px;
+              margin-right: 20px;
+            }
         }
 
         #make-gradient {
-            height: 40px;
-            width: 100px;
+            margin-top: 10px;
+            height: 30px;
+            width: 130px;
           }
     }
   }

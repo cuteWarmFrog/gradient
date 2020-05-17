@@ -1,17 +1,17 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 #main {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   height: 100vh;
-  padding: 5px;
 }
 
 #main #main-settings {
-  width: 30vw;
-  height: 30vh;
+  width: 25vw;
+  height: 14vh;
   background-color: white;
 }
 
@@ -24,14 +24,28 @@
           justify-content: end;
 }
 
+#main #main-settings #number {
+  text-align: center;
+}
+
 #main #main-settings #amount-settings {
+  margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main #main-settings #amount-settings .incr-decr {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #main #main-settings #make-gradient {
-  height: 40px;
-  width: 100px;
+  margin-top: 10px;
+  height: 30px;
+  width: 130px;
 }
 /*# sourceMappingURL=style.css.map */
